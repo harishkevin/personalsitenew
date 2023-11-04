@@ -5,7 +5,6 @@ function Intro() {
     <div className="introMain paddingLR paddingTB">
         <div className='introSub'>
             <Typography variant='h3'>Hello, I'm Harish Panchanatham</Typography>
-
             <br />
             <Typography variant='h2'>Bring your ideas to reality through my code</Typography>
             <br />

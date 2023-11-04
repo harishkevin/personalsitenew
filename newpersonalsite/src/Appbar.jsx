@@ -4,6 +4,7 @@ function Appbar() {
     return <>
     <div className="appBarMain paddingLR">
         <div className="logoDiv">
+            <img style={{width: '30px',height: 'auto'}} src="/images/icons/cli2.png" alt="" />
             <Typography variant="h5" style={{fontFamily: 'SCRegular', color: '#86868B'}}>harishkevinn@gmail.com</Typography>
         </div>
         <div className="optionsDiv">

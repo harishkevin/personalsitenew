@@ -9,7 +9,7 @@ function Deliverables() {
         <br />
         
         <Grid lg={12} md={12} sm={12} container spacing={4}>
-            <Grid item lg={12} md={12} sm={12}>
+            <Grid item lg={12} md={6} sm={6}>
                 <div className="deliverableBigTile tile1">
                     <div className="width50 widthSwitch">
                         <Typography variant="h4">E-Learning Platform</Typography>
@@ -18,12 +18,13 @@ function Deliverables() {
                         <br />
                         <Githubbutton></Githubbutton>
                     </div>
+                    <br />
                     <div className="width50 widthSwitch" style={{paddingBottom: '0px'}}>
                         <center><img style={{width: '100%',borderRadius: '5px'}} src="/images/render/rendergrad.png" alt="" /></center>
                     </div>
                 </div>
             </Grid>
-            <Grid item lg={12} md={6} sm={6} container> 
+            <Grid item lg={12} md={6} sm={6}> 
                 <div className="deliverableBigTile tile2">
                     <div className="width50 widthSwitch">
                         <Typography variant="h4">Leetcode Clone</Typography>

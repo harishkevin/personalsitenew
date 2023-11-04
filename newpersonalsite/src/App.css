@@ -28,6 +28,12 @@ src: local("SFPRODISPLAYREGULAR"),
     url("./fonts/SourceCodePro-SemiBold.ttf") format("truetype");
   }
 
+@font-face {
+  font-family: "MonaSB";
+  src: local("Mona-Sans-SemiBold"),
+    url("./fonts/mona/Mona-Sans-SemiBold.ttf") format("truetype");
+  }
+
 h1 {
   color: white;
   font-family: Regular;
@@ -325,6 +331,10 @@ Button {
 
 .docker {
   height: 50px;
+}
+
+.logoDiv {
+  display: flex;
 }
 
 @media(max-width: 900px) {
