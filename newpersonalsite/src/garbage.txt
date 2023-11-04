@@ -1,0 +1,46 @@
+{/* <Grid lg={12} md={12} sm={12} xs={12} container spacing={4} justifyContent={"center"}>
+            <Grid item lg={2.2} md={12} sm={4} xs={9} container>
+                <div className="deliverableBigTile tile1">
+                    <img style={{width: '100%',borderRadius:'5px'}} src="/images/render/render.png" alt="" />
+                    <Typography variant="h5" className="deliverableh4">E-Learning Platform</Typography>
+                    <br />
+                    <Typography variant='h6'>Educational platform for sharing and accessing diverse online courses</Typography>
+                    <br />
+                    <Githubbutton/>
+                </div>
+            </Grid>
+            <Grid item lg={2.2} md={6} sm={4} xs={9} container> 
+                <div className="deliverableSmallTile tile2">
+                    <img style={{width: '100%',borderRadius:'5px'}} src="/images/render/render3.png" alt="" />
+                    <Typography variant="h5" className="deliverableh4">Leetcode Clone</Typography>
+                    <br />
+                    <Typography variant='h6'>Practice, compete, and improve coding skills online.</Typography>
+                    <br />
+                    <Githubbutton/>
+                </div>
+            </Grid>
+            <Grid item lg={2.2} md={6} sm={4} xs={9} container> 
+                <div className="deliverableSmallTile tile3">
+                    <img style={{width: '100%',borderRadius:'5px'}} src="/images/render/render3.png" alt="" />
+                    <Typography variant="h5" className="deliverableh4">Todo App</Typography>
+                    <br />
+                    <Typography variant='h6'>Organize tasks, set reminders, and boost productivity effortlessly</Typography>
+                    <br />
+                    <Githubbutton/>
+                </div>
+            </Grid>
+        </Grid> */}
+
+
+function Githubbutton() {
+    return<>
+    <center>
+        <Button style={{
+            background: '#5C6BC0',
+            textTransform: 'capitalize',
+            color: 'white',
+            width: '90%'
+        }} variant="contained" size="small"><img style={{width:'15px',marginRight: '5px'}} src="images/icons/github.png" alt="" />View Code</Button>
+    </center>
+    </>
+}

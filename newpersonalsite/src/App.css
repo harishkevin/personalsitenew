@@ -1,0 +1,430 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@font-face {
+font-family: "Regular";
+src: local("SFPRODISPLAYREGULAR"),
+  url("./fonts/SFPRODISPLAYREGULAR.OTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: local("SFPRODISPLAYMEDIUM"),
+    url("./fonts/SFPRODISPLAYMEDIUM.OTF") format("truetype");
+  }
+
+@font-face {
+  font-family: "SCRegular";
+  src: local("SourceCodePro-Regular"),
+    url("./fonts/SourceCodePro-Regular.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: "SCSemiBold";
+  src: local("SourceCodePro-SemiBold"),
+    url("./fonts/SourceCodePro-SemiBold.ttf") format("truetype");
+  }
+
+h1 {
+  color: white;
+  font-family: Regular;
+  font-size: 5rem !important;
+}
+
+h2 {
+  color: white;
+  font-family: Regular;
+  font-size: 4rem !important;
+}
+
+h3 {
+  color: white;
+  font-family: Regular;
+  font-size: 3rem !important;
+}
+
+
+h4 {
+  color: white;
+  font-family: Regular;
+  font-size: 2rem !important;
+}
+
+h5 {
+  color: white;
+  font-family: Regular;
+  font-size: 1.2rem !important;
+}
+
+h6 {
+  color: white;
+  font-family: Regular;
+  font-size: 0.9rem !important;
+}
+
+.rootDiv {
+  width: 100vw;
+}
+
+.appBarAndFrontBanner {
+  background: radial-gradient(circle at 100% 0%, #33142a, #14111c, #14111c);
+}
+
+.appBarMain {
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.optionsDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.optionsDiv .MuiTypography-root {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #86868b;
+}
+
+.paddingLR{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.paddingTB {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.introMain {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introButton {
+  text-transform: capitalize !important;
+  background: linear-gradient(to right, #7549F2, #DE53F7) !important;
+  width: 20%;
+}
+
+.introSub .MuiTypography-root:nth-child(5) {
+  color: #86868b;
+}
+
+.deliverableMain {
+  background-color: #14121d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.deliverableMain .MuiTypography-root:nth-child(3){
+  color: #86868b;
+}
+
+.deliverableBigTile {
+  background-image: linear-gradient(
+  135deg,
+  hsl(259deg 88% 22%) 0%,
+  hsl(247deg 68% 25%) 10%,
+  hsl(236deg 64% 24%) 20%,
+  hsl(229deg 67% 23%) 30%,
+  hsl(225deg 65% 22%) 40%,
+  hsl(223deg 57% 22%) 50%,
+  hsl(219deg 63% 20%) 60%,
+  hsl(215deg 70% 19%) 70%,
+  hsl(212deg 77% 17%) 80%,
+  hsl(210deg 83% 16%) 90%,
+  hsl(208deg 87% 15%) 100%
+);
+  border-radius: 10px;
+  display: flex;
+  padding-left: 60px;
+  padding-top: 60px;
+  padding-right: 60px;
+  padding-bottom: 0px;
+}
+
+.deliverableSmallTile {
+  background-image: linear-gradient(
+  135deg,
+  hsl(259deg 88% 22%) 0%,
+  hsl(247deg 68% 25%) 10%,
+  hsl(236deg 64% 24%) 20%,
+  hsl(229deg 67% 23%) 30%,
+  hsl(225deg 65% 22%) 40%,
+  hsl(223deg 57% 22%) 50%,
+  hsl(219deg 63% 20%) 60%,
+  hsl(215deg 70% 19%) 70%,
+  hsl(212deg 77% 17%) 80%,
+  hsl(210deg 83% 16%) 90%,
+  hsl(208deg 87% 15%) 100%
+);
+border-radius: 10px;
+padding-top: 40px;
+padding-left: 40px;
+}
+
+.tile2 {
+  background-image: linear-gradient(
+  45deg,
+  hsl(198deg 40% 20%) 0%,
+  hsl(202deg 41% 20%) 11%,
+  hsl(207deg 39% 20%) 22%,
+  hsl(213deg 35% 20%) 33%,
+  hsl(222deg 30% 20%) 44%,
+  hsl(235deg 24% 20%) 56%,
+  hsl(253deg 24% 19%) 67%,
+  hsl(273deg 25% 17%) 78%,
+  hsl(293deg 27% 16%) 89%,
+  hsl(312deg 33% 15%) 100%
+);
+}
+
+.tile2 h4 {
+  font-size: 1.7rem !important;
+}
+
+.tile3 {
+  background-image: linear-gradient(
+  135deg,
+  hsl(254deg 43% 16%) 0%,
+  hsl(261deg 44% 16%) 11%,
+  hsl(268deg 45% 15%) 22%,
+  hsl(275deg 46% 15%) 33%,
+  hsl(281deg 47% 15%) 44%,
+  hsl(288deg 48% 15%) 56%,
+  hsl(295deg 50% 14%) 67%,
+  hsl(301deg 52% 14%) 78%,
+  hsl(307deg 56% 14%) 89%,
+  hsl(312deg 60% 15%) 100%
+);
+}
+
+.tile3 h4 {
+  font-size: 1.7rem !important;
+}
+
+.tile5 {
+  background-image: linear-gradient(
+  315deg,
+  hsl(146deg 43% 16%) 0%,
+  hsl(185deg 93% 10%) 50%,
+  hsl(210deg 33% 13%) 100%
+);
+}
+
+.tile5 h4 {
+  font-size: 1.7rem !important;
+}
+
+/* .deliverableMain > div {
+  width: 80%;
+} */
+
+/* For tablet devices */
+
+.deliverableh4 {
+  font-size: 1.3rem !important;
+}
+
+.projectItem {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.worksMain {
+  background-color: #14121d;
+}
+
+.workItem {
+  border: 1px solid purple;
+  width: 70%;
+}
+
+Button {
+  box-shadow: none !important;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.endBanner {
+  background: radial-gradient(circle at 0% 100%, #33142a, #14111c, #15121d);
+}
+
+.contactMain {
+  border: 2px solid grey;
+}
+
+.skillMain .MuiGrid-item {
+  padding: 40px;
+  text-align: center;
+  /* filter: grayscale(100%); */
+}
+
+.skillMain {
+  padding-bottom: 30px;
+}
+
+.javascript {
+  height: 50px;
+}
+
+.mongodb {
+  height: 50px;
+}
+
+.express {
+  height: 30px;
+}
+
+.react {
+  height: 50px;
+}
+
+.node {
+  height: 50px;
+}
+
+.recoil {
+  height: 50px;
+}
+
+.jwt {
+  height: 50px;
+}
+
+.github {
+  height: 50px;
+}
+
+.npm {
+  height: 70px;
+}
+
+.postman {
+  height: 50px;
+}
+
+.aws {
+  height: 50px;
+}
+
+.docker {
+  height: 50px;
+}
+
+@media(max-width: 900px) {
+  .paddingLR{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  /* .deliverableMain > div {
+    width: 70%;
+  } */
+
+  .projectItem {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+/* For mobile devices */
+
+@media(max-width: 450px) {
+  .introButton{
+    width: 75%;
+  }
+
+  .introMain h2 {
+    font-size: 3rem !important;
+  }
+
+  .introMain h3 {
+    font-size: 2rem !important;
+  }
+
+  /* .deliverableMain > div {
+    width: 60%;
+  } */
+
+  .deliverableBigTile {
+    flex-direction: column;
+  }
+
+  .widthSwitch {
+    width: 100%;
+  }
+
+  .deliverableBigTile {
+    padding: 10px;
+  }
+
+  .skillMain .MuiGrid-item {
+    padding: 20px;
+  }
+
+  .javascript {
+    height: 30px;
+  }
+  
+  .mongodb {
+    height: 30px;
+  }
+  
+  .express {
+    height: 20px;
+  }
+  
+  .react {
+    height: 30px;
+  }
+  
+  .node {
+    height: 30px;
+  }
+  
+  .recoil {
+    height: 30px;
+  }
+  
+  .jwt {
+    height: 30px;
+  }
+  
+  .github {
+    height: 30px;
+  }
+  
+  .npm {
+    height: 40px;
+  }
+  
+  .postman {
+    height: 30px;
+  }
+  
+  .aws {
+    height: 30px;
+  }
+  
+  .docker {
+    height: 30px;
+  }
+}
