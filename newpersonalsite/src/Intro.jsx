@@ -10,7 +10,13 @@ function Intro() {
             <br />
             <Typography variant='h5'>a Fullstack Web Developer and a passionate Data Scientist from Chennai who loves to build and deliver quality product</Typography>
             <br />
-            <Button className='introButton' variant="contained" size='large'>Let's Connect</Button>
+            {/* <Button className='introButton' variant="contained" size='large'>Let's Connect</Button> */}
+            <div className='social'>
+                <img style={{width: '40px'}} src="/images/icons/githubsocial.png" alt="" />
+                {/* <img style={{width: '40px'}} src="/images/icons/discordsocial.png" alt="" /> */}
+                <img style={{width: '40px'}} src="/images/icons/linkedinsocial.png" alt="" />
+                <img style={{width: '40px'}} src="/images/icons/twittersocial.png" alt="" />
+            </div>
         </div>
     </div>
     </>

@@ -97,7 +97,7 @@ h6 {
   color: #86868b;
 }
 
-.paddingLR{
+.paddingLR {
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -337,8 +337,12 @@ Button {
   display: flex;
 }
 
+.social img {
+  margin: 5px;
+}
+
 @media(max-width: 900px) {
-  .paddingLR{
+  .paddingLR {
     padding-left: 3%;
     padding-right: 3%;
   }
